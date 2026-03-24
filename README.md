@@ -94,6 +94,21 @@ Com o Iterator, isso muda. Ele permite que a gente percorra os dados sem precisa
 
 ##  Implementação no Projeto
 
+No projeto, o padrão Iterator foi usado para percorrer uma coleção de dados, como uma lista de produtos, usuários ou registros.
+
+A ideia principal foi separar a forma de acessar os dados da forma como eles estão armazenados.
+
+**Explicando de forma simples**
+
+É como se a lista fosse uma caixa com vários itens,  
+e o Iterator fosse a pessoa responsável por pegar um item de cada vez, na ordem correta.
+
+Quem usa o Iterator não precisa saber como os itens estão organizados dentro da caixa.
+
+
+### 🔧 Exemplo em C#
+imagems
+
 ##  Análise Crítica
 
 O padrão Iterator é uma forma muito organizada de acessar coleções de dados.
