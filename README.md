@@ -102,25 +102,13 @@ Com o Iterator, isso muda. Ele permite que a gente percorra os dados sem precisa
 
 Quando não usamos o padrão Iterator, o código acessa a coleção diretamente.
 
-**Isso significa que:**
-- O código fica dependente da estrutura (lista, array, etc.)  
-- Qualquer mudança na coleção pode quebrar o código  
-- Fica mais difícil reutilizar  
-- O sistema fica menos organizado  
-
  Exemplo:  
 Acessar uma lista usando índices diretamente (`lista[i]`)
 
- ### Quando usamos o Iterator
+ **Quando usamos o Iterator?:**
 
 Com o padrão Iterator, o acesso aos dados é feito por meio de um objeto responsável pela navegação.
-
-**Isso traz vantagens como:**
-- O código não depende da estrutura da coleção  
-- É mais fácil fazer mudanças no sistema  
-- O código fica mais organizado  
-- Permite diferentes formas de percorrer os dados  
-
+ 
  Exemplo:  
 Usar um iterador ou `foreach` para percorrer a coleção
 
@@ -132,3 +120,47 @@ Usar um iterador ou `foreach` para percorrer a coleção
 | Difícil manutenção | Fácil manutenção |
 | Pouca flexibilidade | Alta flexibilidade |
 | Acesso direto aos dados | Acesso controlado |
+
+## Vantagens
+
+O uso do padrão Iterator traz vários benefícios para o desenvolvimento no sistema:
+
+- **Reduz o acoplamento**  
+  O código que percorre os dados não depende da estrutura interna da coleção.
+
+- **Facilita a manutenção**  
+  Alterações na estrutura da coleção não afetam diretamente o restante do sistema.
+
+- **Permite diferentes formas de navegação**  
+  É possível percorrer os dados de várias maneiras (normal, reverso, filtrado, etc.).
+
+- **Padroniza o acesso às coleções**  
+  Diferentes estruturas podem ser acessadas da mesma forma.
+
+- **Código mais organizado**  
+  A lógica de navegação fica separada, deixando o sistema mais limpo.
+
+- **Maior reutilização de código**  
+  A mesma lógica de iteração pode ser usada em diferentes partes do sistema.
+
+- **Facilita a evolução do sistema**  
+  Novas formas de percorrer os dados podem ser adicionadas sem alterar o código existente.
+
+## Desvantagens
+
+Apesar das vantagens, o padrão Iterator também possui alguns pontos negativos:
+
+- **Aumenta a quantidade de classes**  
+  É necessário criar mais interfaces e implementações, o que pode deixar o projeto maior.
+
+- **Pode ser desnecessário em sistemas simples**  
+  Em casos básicos, usar um `foreach` já resolve o problema de forma mais simples.
+
+- **Pode impactar levemente a performance**  
+  O uso de objetos extras pode gerar uma pequena sobrecarga.
+
+- **Nem sempre traz benefício real**  
+  Em aplicações pequenas, o custo pode ser maior que o benefício.
+
+- **Pode gerar código mais verboso**  
+  Comparado a soluções simples, pode exigir mais linhas de código.
