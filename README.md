@@ -56,3 +56,24 @@ O padrão Iterator é composto por alguns elementos principais:
 - **Aggregate (Coleção/Agregador):** Interface que define a criação do iterador.
   
 - **ConcreteAggregate (Coleção Concreta):** Implementa a interface do agregador e retorna um iterador apropriado.
+
+  ## Participantes 
+
+O padrão Iterator é composto por diferentes participantes, cada um com responsabilidades bem definidas dentro da arquitetura:
+
+**Iterator (Interface)**
+
+Define a interface responsável pela navegação na coleção.  
+Estabelece os métodos que permitem percorrer os elementos de forma sequencial, sem expor a estrutura interna.
+
+**ConcreteIterator (Iterador Concreto):**
+
+Implementa a interface `Iterator` e é responsável por manter o estado atual da iteração.
+
+**Aggregate (Agregador / Coleção Abstrata):**
+
+Define a interface para criação de objetos iteradores.
+
+**ConcreteAggregate (Coleção Concreta):**
+
+Implementa a interface `Aggregate` e representa a coleção real de dados.
