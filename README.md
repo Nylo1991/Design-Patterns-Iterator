@@ -196,3 +196,46 @@ Para exibir os produtos na tela, o sistema precisa percorrer essa lista.
 Mesmo sem perceber, o desenvolvedor está usando o conceito de Iterator (por exemplo, com um `foreach`).
 
 Em outras palavras, sempre que você percorre uma coleção de dados de forma organizada e sem precisar saber como ela funciona por dentro, você está usando o padrão Iterator, mesmo que de forma indireta.
+
+
+### Conclusão
+
+O padrão Iterator ajuda a deixar o sistema mais organizado, flexível e fácil de manter, sendo muito utilizado no desenvolvimento de software profissional.
+
+
+
+
+
+## Referências Biograficas
+
+- GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John.  
+  *Design Patterns: Elements of Reusable Object-Oriented Software*. Boston: Addison-Wesley, 1995.
+
+- GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John.  
+  *Padrões de Projeto: Soluções Reutilizáveis de Software Orientado a Objetos*. Porto Alegre: Bookman, 2000.
+
+- FREEMAN, Eric; FREEMAN, Elisabeth.  
+  *Head First Design Patterns*. Sebastopol: O’Reilly Media, 2004.
+
+- MARTIN, Robert C.  
+  *Clean Code: A Handbook of Agile Software Craftsmanship*. Upper Saddle River: Prentice Hall, 2008.
+
+- MICROSOFT.  
+  *IEnumerable Interface*. Disponível em:  
+  https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerable  
+  Acesso em: 22 mar. 2026.
+
+- MICROSOFT.  
+  *IEnumerator Interface*. Disponível em:  
+  https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerator  
+  Acesso em: 22 mar. 2026.
+
+- ORACLE.  
+  *Interface Iterator (Java Platform SE)*. Disponível em:  
+  https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html  
+  Acesso em: 22 mar. 2026.
+
+- REFACTORING GURU.  
+  *Iterator Design Pattern*. Disponível em:  
+  https://refactoring.guru/design-patterns/iterator  
+  Acesso em: 22 mar. 2026.
