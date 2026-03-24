@@ -164,3 +164,35 @@ Apesar das vantagens, o padrão Iterator também possui alguns pontos negativos:
 
 - **Pode gerar código mais verboso**  
   Comparado a soluções simples, pode exigir mais linhas de código.
+
+ ## Exemplos Reais no Mercado
+
+O padrão Iterator é muito usado na prática, mesmo que às vezes a gente nem perceba.
+
+Isso acontece porque muitas linguagens e frameworks já implementam esse padrão internamente, facilitando a vida do desenvolvedor.
+
+   **Onde ele aparece no dia a dia:**
+
+- **C# / .NET**  
+  Usado nas interfaces `IEnumerable` e `IEnumerator`, além do comando `foreach`, que percorre coleções automaticamente.
+
+- **Java**  
+  A interface `Iterator` permite percorrer listas, conjuntos e outras coleções da biblioteca padrão.
+
+- **Bancos de dados**  
+  Cursores são usados para percorrer resultados de consultas linha por linha, funcionando de forma parecida com um Iterator.
+
+- **APIs e sistemas web**  
+  Muitas APIs retornam listas de dados que são percorridas utilizando esse conceito.
+
+- **Sistemas empresariais (ERP, e-commerce, etc.)**  
+  Muito usado para percorrer listas de produtos, clientes, pedidos e outros registros.
+
+**Exemplo prático:**
+
+Imagine um sistema de e-commerce com uma lista de produtos.
+
+Para exibir os produtos na tela, o sistema precisa percorrer essa lista.  
+Mesmo sem perceber, o desenvolvedor está usando o conceito de Iterator (por exemplo, com um `foreach`).
+
+Em outras palavras, sempre que você percorre uma coleção de dados de forma organizada e sem precisar saber como ela funciona por dentro, você está usando o padrão Iterator, mesmo que de forma indireta.
