@@ -92,3 +92,43 @@ Com o Iterator, isso muda. Ele permite que a gente percorra os dados sem precisa
 - Facilita fazer mudanças no futuro  
 - Funciona da mesma forma para diferentes tipos de coleção  
 
+##  Implementação no Projeto
+
+##  Análise Crítica
+
+## Comparação com Abordagens sem o Padrão
+
+**Sem usar o Iterator**
+
+Quando não usamos o padrão Iterator, o código acessa a coleção diretamente.
+
+**Isso significa que:**
+- O código fica dependente da estrutura (lista, array, etc.)  
+- Qualquer mudança na coleção pode quebrar o código  
+- Fica mais difícil reutilizar  
+- O sistema fica menos organizado  
+
+ Exemplo:  
+Acessar uma lista usando índices diretamente (`lista[i]`)
+
+ ### Quando usamos o Iterator
+
+Com o padrão Iterator, o acesso aos dados é feito por meio de um objeto responsável pela navegação.
+
+**Isso traz vantagens como:**
+- O código não depende da estrutura da coleção  
+- É mais fácil fazer mudanças no sistema  
+- O código fica mais organizado  
+- Permite diferentes formas de percorrer os dados  
+
+ Exemplo:  
+Usar um iterador ou `foreach` para percorrer a coleção
+
+**Em Resumo**
+
+| Sem Iterator | Com Iterator |
+|-------------|-------------|
+| Código acoplado à estrutura | Código desacoplado |
+| Difícil manutenção | Fácil manutenção |
+| Pouca flexibilidade | Alta flexibilidade |
+| Acesso direto aos dados | Acesso controlado |
