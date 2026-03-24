@@ -29,7 +29,7 @@ NOVA LIMA - MG 2026
 
 ##  Definição do Padrão
 
-O padrão de projeto **Iterator** é um padrão comportamental que tem como objetivo fornecer uma forma de acessar sequencialmente os elementos de uma coleção sem expor sua estrutura interna.
+O padrão de projeto Iterator é um padrão comportamental que tem como objetivo fornecer uma forma de acessar sequencialmente os elementos de uma coleção sem expor sua estrutura interna.
 
 Ele permite percorrer diferentes tipos de coleções de maneira uniforme, desacoplando o código que realiza a iteração da estrutura de dados utilizada.
 
@@ -77,3 +77,18 @@ Define a interface para criação de objetos iteradores.
 **ConcreteAggregate (Coleção Concreta):**
 
 Implementa a interface `Aggregate` e representa a coleção real de dados.
+
+## Justificativa da Escolha
+
+Eu escolhi o padrão Iterator, porque pelo que deu pra pesquisar ele facilita muito a forma de acessar os dados no sistema.
+
+Normalmente, quando a se trabalha com listas ou outras coleções, o código acaba ficando muito preso à forma como esses dados estão organizados. Isso dificulta quando precisamos mudar alguma coisa depois.
+
+Com o Iterator, isso muda. Ele permite que a gente percorra os dados sem precisar se preocupar com como eles estão armazenados.
+
+**Resumindo**
+- Ele separa o jeito de acessar os dados da forma como eles estão guardados  
+- Deixa o código mais organizado  
+- Facilita fazer mudanças no futuro  
+- Funciona da mesma forma para diferentes tipos de coleção  
+
