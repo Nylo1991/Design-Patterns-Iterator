@@ -96,6 +96,20 @@ Com o Iterator, isso muda. Ele permite que a gente percorra os dados sem precisa
 
 ##  Análise Crítica
 
+O padrão Iterator é uma forma muito organizada de acessar coleções de dados.
+
+Mas, sendo bem direto, ele nem sempre é necessário. Em sistemas simples, pode acabar complicando mais do que ajudando, porque adiciona mais classes e estrutura ao código.
+
+Além disso, linguagens como C# já possuem soluções prontas, como o `foreach`, que fazem esse trabalho de forma mais simples. Por isso, usar o Iterator manualmente pode ser redundante em alguns casos.
+
+Por outro lado, em sistemas maiores e mais complexos, o Iterator faz bastante diferença. Ele ajuda a deixar o código mais organizado, facilita a manutenção e permite que o sistema evolua sem causar muitos problemas.
+
+**Resumindo**
+
+- Em sistemas simples → pode ser desnecessário  
+- Em sistemas complexos → é muito útil
+-  
+
 ## Comparação com Abordagens sem o Padrão
 
 **Sem usar o Iterator**
