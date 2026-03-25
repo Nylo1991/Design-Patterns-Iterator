@@ -104,6 +104,7 @@ como um repositório de dados, enquanto o Iterator é responsável por percorrer
 esses elementos de maneira sequencial. Essa abordagem permitiu que o sistema
 acessasse os dados sem depender diretamente da estrutura interna da coleção.
 
+<img src="exemplo iterator.png">
 De forma ilustrativa, pode-se comparar a coleção a uma caixa que contém diversos
 itens, enquanto o Iterator atua como o responsável por retirar esses itens um a um,
 na ordem correta. Essa analogia ajuda a compreender como o padrão abstrai a
