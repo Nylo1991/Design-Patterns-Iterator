@@ -21,6 +21,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nylo1991"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nylo1991/AppIterator.git",
+    "accountId": "774ac051-d4b5-4460-b34b-a7ad00fdf48e"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 5
@@ -77,16 +90,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774499478992</updated>
-      <workItem from="1774499480905" duration="3603000" />
+      <workItem from="1774499480905" duration="4355000" />
     </task>
+    <task id="LOCAL-00001" summary="Primeiro commit do projeto">
+      <option name="closed" value="true" />
+      <created>1774503870653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774503870653</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Primeiro commit do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit do projeto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -103,6 +128,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AppIterator/Services/ProdutoSerivice.cs</url>
+          <line>28</line>
+          <properties documentPath="C:\Users\Lenovo\RiderProjects\AppIterator\AppIterator\Services\ProdutoSerivice.cs" containingFunctionPresentation="Method 'ObterProdutos'">
+            <startOffsets>
+              <option value="871" />
+            </startOffsets>
+            <endOffsets>
+              <option value="872" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
