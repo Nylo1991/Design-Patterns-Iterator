@@ -111,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774504449039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Primeiro commit do projeto ITERATOR">
+      <option name="closed" value="true" />
+      <created>1774508483438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774508483438</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +130,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Primeiro commit do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit do projeto" />
+    <MESSAGE value="Primeiro commit do projeto ITERATOR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit do projeto ITERATOR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
