@@ -17,6 +17,12 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -119,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774508483438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Resolvendo conflitos">
+      <option name="closed" value="true" />
+      <created>1774509499956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774509499956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +145,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Primeiro commit do projeto" />
     <MESSAGE value="Primeiro commit do projeto ITERATOR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit do projeto ITERATOR" />
+    <MESSAGE value="Resolvendo conflitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolvendo conflitos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -160,6 +175,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AppIterator/Services/ProdutoSerivice.cs</url>
+          <line>9</line>
+          <properties documentPath="C:\Users\Lenovo\RiderProjects\AppIterator\AppIterator\Services\ProdutoSerivice.cs" containingFunctionPresentation="Constructor 'ProdutoService'">
+            <startOffsets>
+              <option value="179" />
+            </startOffsets>
+            <endOffsets>
+              <option value="180" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
